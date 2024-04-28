@@ -1,0 +1,61 @@
+body {
+  font-family: "Times New Roman", Times, serif; /* Set font family to New Times Roman */
+  margin: 0;
+  padding: 20px;
+  background-color: black; /* Set background color to black */
+  color: red; /* Set font color to red */
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: red; /* Set label color to red */
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group input[type="email"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: black; /* Set input background color to black */
+  color: red; /* Set input text color to red */
+}
+
+.form-group input[type="submit"] {
+  background-color: white; /* Set submit button background color to white */
+  color: black; /* Set submit button text color to black */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.alert-success {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #3c763d;
+}
+
+.alert-danger {
+  background-color: #f2dede;
+  border-color: #e74c3c;
+  color: #a94442;
+}
